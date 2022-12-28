@@ -1,4 +1,4 @@
-public class Mysql implements IVeriTabaniYonetici {
+public class Mysql extends VeriTabani {
     @Override
     public void yaz() {
         System.out.println("Veri Yazildi : Mysql ");
