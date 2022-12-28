@@ -5,11 +5,11 @@ public class Factory {
 
     public IVeriTabaniYonetici getVeriTabaniYonetici(int tip) {
         if (tip==1) {
-            System.out.println("Mysql secildi.");
+            System.out.println("Veritabani olarak Mysql secildi.");
             return new Mysql();
         }
         else if (tip==2) {
-            System.out.println("Oracle secildi.");
+            System.out.println("Veritabani olarak Oracle secildi.");
             return new Oracle();
         }
         else {

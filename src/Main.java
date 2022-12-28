@@ -11,7 +11,5 @@ public class Main {
         veriTabaniYonetici1.oku();
         veriTabaniYonetici1.yaz();
 
-        Factory factory3 = new Factory();
-        IVeriTabaniYonetici veriTabaniYonetici3 = factory3.getVeriTabaniYonetici(1);
     }
 }
